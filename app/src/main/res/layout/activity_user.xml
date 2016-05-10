@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/avatar"
+        android:minHeight="150dp"
+        android:minWidth="150dp"
+        android:maxHeight="150dp"
+        android:maxWidth="150dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </ImageView>
+
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:text="id: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/idHint"
+        android:layout_below="@+id/avatar" />
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:text="email: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/emailHint"
+        android:layout_below="@+id/idHint" />
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:text="username: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/usernameHint"
+        android:layout_below="@+id/emailHint" />
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:text="name: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nameHint"
+        android:layout_below="@+id/usernameHint" />
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:text="type: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/typeHint"
+        android:layout_below="@+id/nameHint" />
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:text="company: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/companyHint"
+        android:layout_below="@+id/typeHint" />
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:text="location: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/locationHint"
+        android:layout_below="@+id/companyHint" />
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:text="public repository: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/publicReposHint"
+        android:layout_below="@+id/locationHint" />
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:text="followers: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/followersHint"
+        android:layout_below="@+id/publicReposHint" />
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:text="following: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/followingHint"
+        android:layout_below="@+id/followersHint" />
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:text="Created At: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/createdAtHint"
+        android:layout_below="@+id/followingHint" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:minWidth="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/id"
+        android:layout_alignBaseline="@+id/idHint"
+        android:layout_toEndOf="@+id/idHint" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:minWidth="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:layout_alignBaseline="@+id/emailHint"
+        android:layout_toEndOf="@+id/emailHint" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:minWidth="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:layout_alignBaseline="@+id/usernameHint"
+        android:layout_toEndOf="@+id/usernameHint" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:minWidth="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:layout_alignBaseline="@+id/nameHint"
+        android:layout_toEndOf="@+id/nameHint" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:minWidth="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/type"
+        android:layout_alignBaseline="@+id/typeHint"
+        android:layout_toEndOf="@+id/typeHint" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:minWidth="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/company"
+        android:layout_alignBaseline="@+id/companyHint"
+        android:layout_toEndOf="@+id/companyHint" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:minWidth="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/location"
+        android:layout_alignBaseline="@+id/locationHint"
+        android:layout_toEndOf="@+id/locationHint" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:minWidth="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/publicRepos"
+        android:layout_alignBaseline="@+id/publicReposHint"
+        android:layout_toEndOf="@+id/publicReposHint" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:minWidth="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/followers"
+        android:layout_alignBaseline="@+id/followersHint"
+        android:layout_toEndOf="@+id/followersHint" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:minWidth="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/following"
+        android:layout_alignBaseline="@+id/followingHint"
+        android:layout_toEndOf="@+id/followingHint" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:minWidth="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/createdAt"
+        android:layout_alignBaseline="@+id/createdAtHint"
+        android:layout_toEndOf="@+id/createdAtHint" />
+</RelativeLayout>
